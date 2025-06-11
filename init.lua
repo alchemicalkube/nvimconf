@@ -1,1 +1,1 @@
-require("config.manager.lazy")
+require("config.lazy")
