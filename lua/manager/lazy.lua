@@ -27,7 +27,6 @@ require("lazy").setup({
     -- import your plugins
     { import = "plugins" },
     { import = "themes" },
-    { import = "user" },
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
@@ -35,3 +34,7 @@ require("lazy").setup({
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
+
+require("user.diagnostic")
+require("user.keymaps")
+require("user.options")
