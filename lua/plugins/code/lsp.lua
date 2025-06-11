@@ -26,15 +26,19 @@ return {
             -------------
             --- GoLang
             -------------
-            local lspconfig = require("lspconfig")
-            lspconfig.gopls.setup({
+            vim.lsp.enable("gopls")
+            vim.lsp.config("gopls", {
                 settings = {
                     gopls = {
                         analyses = {
                             unusedparams = true,
+                            unreachable = true,
                         },
                         staticcheck = true,
-                        gofumpt = true,
+                        usePlaceholders = true,
+                        completeUnimported = true,
+                        completeFunctionCalls = true,
+                        hoverKind = "FullDocumentation"
                     },
                 },
             })
