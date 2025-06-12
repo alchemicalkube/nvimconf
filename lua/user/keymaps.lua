@@ -2,6 +2,7 @@
 --- LSP
 -------------
 vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
+vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { desc = "Go to definition" })
 -------------
 --- LSP
 -------------
@@ -11,6 +12,7 @@ vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
 -------------
 vim.keymap.set("n", "<leader>w", ":w<CR>")
 vim.keymap.set("n", "<leader>q", ":q<CR>")
+vim.keymap.set("n", "<leader>pv", ":Ex<CR>")
 -------------
 --- Editor
 -------------
