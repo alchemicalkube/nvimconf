@@ -34,10 +34,12 @@ return {
                             unusedparams = true,
                             unreachable = true,
                         },
+                        gofumpt = true,
                         staticcheck = true,
                         usePlaceholders = true,
                         completeUnimported = true,
                         completeFunctionCalls = true,
+                        semanticTokens = true,
                         hoverKind = "FullDocumentation"
                     },
                 },
