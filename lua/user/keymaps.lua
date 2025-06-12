@@ -13,6 +13,9 @@ vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { desc = "Go to definition" })
 vim.keymap.set("n", "<leader>w", ":w<CR>")
 vim.keymap.set("n", "<leader>q", ":q<CR>")
 vim.keymap.set("n", "<leader>pv", ":Ex<CR>")
+
+vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", { desc = 'Move selected line up '})
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", { desc = 'Move selected line down' })
 -------------
 --- Editor
 -------------
