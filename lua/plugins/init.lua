@@ -1,5 +1,5 @@
 return {
     { import = "plugins.code" },
-    { import = "plugins.fuzzy" },
+    { import = "plugins.files" },
     { import = "plugins.ui" },
 }
