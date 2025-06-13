@@ -30,7 +30,7 @@ return {
             ['<CR>'] = { 'select_and_accept' },
             ['<C-j>'] = { 'select_next' },
             ['<C-k>'] = { 'select_prev' }, 
-        },
+    },
 
     appearance = {
       -- 'mono' (default) for 'Nerd Font Mono' or 'normal' for 'Nerd Font'
