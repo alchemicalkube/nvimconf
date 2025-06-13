@@ -1,13 +1,13 @@
-   
 -----------------
 --- Editing
 -----------------
 vim.opt.tabstop = 4 --- https://neovim.io/doc/user/options.html#'tabstop'
 vim.opt.softtabstop = 4 --- https://neovim.io/doc/user/options.html#'softtabstop'
+vim.opt.shiftwidth = 4 --- https://neovim.io/doc/user/options.html#'shiftwidth'
 vim.opt.expandtab = true --- https://neovim.io/doc/user/options.html#'expandtab'
 vim.opt.ignorecase = true --- https://neovim.io/doc/user/options.html#'ignorecase'
 vim.opt.clipboard = "unnamedplus" --- https://neovim.io/doc/user/options.html#'clipboard'
-vim.opt.smartindent = true
+vim.opt.mouse = ""
 -----------------
 --- Editing
 -----------------
