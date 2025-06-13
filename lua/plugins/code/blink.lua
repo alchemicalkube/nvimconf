@@ -26,8 +26,7 @@ return {
     --
     -- See :h blink-cmp-config-keymap for defining your own keymap
     keymap = { 
-            preset = 'default',
-            ['<CR>'] = { 'select_and_accept' },
+            preset = 'enter',
             ['<C-j>'] = { 'select_next' },
             ['<C-k>'] = { 'select_prev' }, 
     },
