@@ -3,6 +3,7 @@
 -------------
 vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
 vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { desc = "Go to definition" })
+vim.keymap.set('n', 'gr', vim.lsp.buf.rename, {desc = "Rename symbol"})
 -------------
 --- LSP
 -------------
